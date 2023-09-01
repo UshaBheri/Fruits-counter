@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffd569;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 26px;
+  width: 70%;
+  padding: 24px;
+  max-width: 1110px;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 80%;
+    padding-top: 96px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 96px;
+  }
+  .number {
+    font-size: 30px;
+  }
+  .fruits-container {
+    flex-direction: row;
+  }
+  .btn-container {
+    margin-top: 48px;
+  }
+  .button {
+    font-size: 16px;
+  }
+}
+
+.headingCount {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #000000;
+}
+.number {
+  color: #ffd569;
+}
+
+.fruits-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.mango {
+  height: 150px;
+  width: 150px;
+}
+.image {
+  height: 175px;
+  width: 200px;
+}
+@media screen and (min-width: 992px) {
+  .image {
+    width: 296px;
+    height: 275px;
+  }
+}
+.btn-container {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  background-color: #007bff;
+  border-width: 0px;
+  border-radius: 2px;
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 10px;
+  height: 20px;
+  width: 90px;
+}
